@@ -35,7 +35,7 @@
     "description": "Snippet for a struct declaration"
   },
   "package main and main function": {
-    "prefix": "pkgm",
+    "prefix": "pm",
     "body": "package main\n\nfunc main() {\n\t$0\n}",
     "description": "Snippet for main package & function"
   },
@@ -111,7 +111,7 @@
   },
   "fmt.Println": {
     "prefix": "fp",
-    "body": "fmt.Println(\"$1\")",
+    "body": "fmt.Println($1)",
     "description": "Snippet for fmt.Println()"
   },
   "fmt.Printf": {
@@ -245,7 +245,7 @@
     "description": "Snippet for init function"
   },
   "main function": {
-    "prefix": "fmain",
+    "prefix": "fm",
     "body": "func main() {\n\t$1\n}",
     "description": "Snippet for main function"
   },
