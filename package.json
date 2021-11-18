@@ -38,8 +38,8 @@
         "path": "./snippets/gitcommit.json"
       },
       {
-        "language": "html",
-        "path": "./snippets/ejs.json"
+        "language": "ejs",
+        "path": "./snippets/frameworks/ejs.json"
       },
       {
         "language": "eruby",
@@ -50,8 +50,16 @@
         "path": "./snippets/elixir.json"
       },
       {
+        "language": "eelixir",
+        "path": "./snippets/eelixir.json"
+      },
+      {
         "language": "fortran",
         "path": "./snippets/fortran.json"
+      },
+      {
+        "language": "glsl",
+        "path": "./snippets/glsl.json"
       },
       {
         "language": "liquid",
@@ -82,8 +90,8 @@
         "path": "./snippets/ruby.json"
       },
       {
-        "language": "ruby",
-        "path": "./snippets/rails.json"
+        "language": "rails",
+        "path": "./snippets/frameworks/rails.json"
       },
       {
         "language": "rust",
@@ -135,7 +143,8 @@
         "language": [
           "html",
           "jade",
-          "pug"
+          "pug",
+          "eruby"
         ],
         "path": "./snippets/html.json"
       },
@@ -154,16 +163,10 @@
           "javascript",
           "typescript",
           "javascriptreact",
-          "typescriptreact"
+          "typescriptreact",
+          "vue"
         ],
         "path": "./snippets/javascript/javascript.json"
-      },
-      {
-        "language": [
-          "javascriptreact",
-          "typescriptreact"
-        ],
-        "path": "./snippets/javascript/apollo.json"
       },
       {
         "language": [
@@ -182,19 +185,19 @@
       },
       {
         "language": "vue",
-        "path": "./snippets/vue/html.json"
+        "path": "./snippets/frameworks/vue/html.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue/pug.json"
+        "path": "./snippets/frameworks/vue/pug.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue/javascript.json"
+        "path": "./snippets/frameworks/vue/javascript.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue/vue.json"
+        "path": "./snippets/frameworks/vue/vue.json"
       },
       {
         "language": "python",
@@ -217,16 +220,32 @@
         "path": "./snippets/python/unittest.json"
       },
       {
-        "language": "python",
-        "path": "./snippets/python/tkinter.json"
+        "language": "django",
+        "path": "./snippets/frameworks/django/imports.json"
       },
       {
-        "language": "dart",
-        "path": "./snippets/flutter.json"
+        "language": "django",
+        "path": "./snippets/frameworks/django/forms.json"
       },
       {
-        "language": "markdown",
-        "path": "./snippets/jekyll/vscode-jekyll-snippets.json"
+        "language": "django",
+        "path": "./snippets/frameworks/django/models.json"
+      },
+      {
+        "language": "django",
+        "path": "./snippets/frameworks/django/views.json"
+      },
+      {
+        "language": "django",
+        "path": "./snippets/frameworks/django/filetemplates.json"
+      },
+      {
+        "language": "flutter",
+        "path": "./snippets/frameworks/flutter.json"
+      },
+      {
+        "language": "jekyll",
+        "path": "./snippets/frameworks/jekyll.json"
       },
       {
         "language": "cobol",
@@ -249,10 +268,6 @@
         "path": "./snippets/kotlin.json"
       },
       {
-        "language": "fortran",
-        "path": "./snippets/fortran/vscode-fortran-support.json"
-      },
-      {
         "language": [
           "plaintex",
           "tex"
@@ -268,7 +283,7 @@
       },
       {
         "language": "twig",
-        "path": "./snippets/twig.json"
+        "path": "./snippets/frameworks/twig.json"
       },
       {
         "language": [
