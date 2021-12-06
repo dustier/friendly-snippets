@@ -161,9 +161,7 @@
       {
         "language": [
           "javascript",
-          "typescript",
           "javascriptreact",
-          "typescriptreact",
           "vue"
         ],
         "path": "./snippets/javascript/javascript.json"
@@ -299,6 +297,14 @@
       {
         "language": "org",
         "path": "./snippets/org.json"
+      },
+      {
+        "language": "norg",
+        "path": "./snippets/norg.json"
+      },
+      {
+        "language": "mint",
+        "path": "./snippets/mint.json"
       },
       {
         "language": "gdscript",
