@@ -348,11 +348,6 @@
   },
   "mod": {
     "prefix": "mod",
-    "body": ["mod ${1:name};"],
-    "description": "mod …;"
-  },
-  "mod-block": {
-    "prefix": "mod-block",
     "body": ["mod ${1:name} {", "    ${2:// add code here}", "}"],
     "description": "mod … { … }"
   },
